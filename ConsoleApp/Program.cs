@@ -6,13 +6,15 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            Person person = new Person { Name = "Alice" };
+
             Employee employee = new Employee {Name="Tom" };
 
             employee.Company = "Microsoft";
 
-            employee.Print();
+            person.Print();
 
-            employee.PrintCompany();
+            employee.Print();
         }
     }
 }
@@ -22,7 +24,7 @@ class Person
 {
     public string Name { get; set; }
 
-    public void Print()
+    public virtual void Print()
     {
         Console.WriteLine(Name);
     }
@@ -32,7 +34,7 @@ class Employee : Person
 {
     public string? Company { get; set; }
 
-    public void PrintCompany()
+    public override void Print()
     {
         Console.WriteLine($"{Name} works at {Company}");
     }
