@@ -12,3 +12,4 @@ C:\Users\Iqbol Toshmatov\Desktop\repos\ConsoleApp\ConsoleApp\obj\Debug\net8.0\re
 C:\Users\Iqbol Toshmatov\Desktop\repos\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 C:\Users\Iqbol Toshmatov\Desktop\repos\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\Iqbol Toshmatov\Desktop\repos\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+C:\Users\Iqbol Toshmatov\Desktop\repos\ConsoleApp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
