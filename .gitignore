@@ -1,0 +1,19 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/ConsoleApp/obj/Debug/net8.0/ConsoleApp.sourcelink.json
+/.vs/ConsoleApp/CopilotIndices/17.14.698.11175/CodeChunks.db
+/.vs/ConsoleApp/CopilotIndices/17.14.698.11175/CodeChunks.db-shm
+/.vs/ConsoleApp/CopilotIndices/17.14.698.11175/SemanticSymbols.db-shm
+/.vs/ConsoleApp/CopilotIndices/17.14.698.11175/SemanticSymbols.db-wal
+/.vs/ConsoleApp/v17/DocumentLayout.json
+/.vs/ConsoleApp/v17/DocumentLayout.backup.json
+/.vs/ConsoleApp/v17/.futdcache.v2
+/.vs/ConsoleApp/v17/.suo
+/.vs/ConsoleApp/CopilotIndices/17.14.698.11175/SemanticSymbols.db
+/.vs/ConsoleApp/CopilotIndices/17.14.698.11175/CodeChunks.db-wal
+/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll
+/ConsoleApp/bin/Debug/net8.0/ConsoleApp.exe
+/ConsoleApp/bin/Debug/net8.0/ConsoleApp.pdb
+*.vsidx
