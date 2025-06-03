@@ -7,25 +7,30 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Car car = new Car();
-            car.Move();
+            Message message = new Message { Text = "Hello, World!" };
+            message.Print();
         }
     }
 
-    interface IMovable
+    interface IMessage
+    { 
+        string Text { get; set; }
+    }
+
+    public interface IPrintable
     {
-        public void Move()
+        void Print();
+    }
+
+    class Message : IMessage, IPrintable
+    {
+        public string? Text { get; set; }
+
+        public void Print()
         {
-            Console.WriteLine("Walking");
+            Console.WriteLine(Text);
         }
     }
 
-    class Car : IMovable
-    {
-        public void Move()
-        {
-            Console.WriteLine("Car is moving");
-        }
-    }
 }
 
