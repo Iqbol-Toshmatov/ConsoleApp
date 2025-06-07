@@ -7,38 +7,19 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Queue<Person> patiens = new Queue<Person>() ;
-            patiens.Enqueue(new Person("Tom"));
-            patiens.Enqueue(new Person("Sam"));
-            patiens.Enqueue(new Person("Bob"));
-            patiens.Enqueue(new Person("Tim"));
-
-            Doctor doctor = new Doctor();
-            doctor.TakePatiens(patiens);
-        }
-    }
-
-    class Person
-    {
-        public string Name { get; set; }
-        public Person(string name)
-        {
-            Name=name;  
-        }
-    }
-
-    class Doctor
-    {
-        public void TakePatiens(Queue<Person> patiens)
-        {
-            while (patiens.Count>0)
+            Dictionary<int , string> phoneBook = new Dictionary<int , string>();
+            phoneBook.Add(1234,"Tom");
+            foreach (var names in phoneBook)
             {
-                var patien = patiens.Dequeue();
-                Console.WriteLine($"Осмотр пациента {patien.Name}");
+                Console.WriteLine($"{names.Value} - {names.Key}");
             }
+            var containsCode = phoneBook.ContainsKey(1234);
+            Console.WriteLine(containsCode);
+            var containsValue = phoneBook.ContainsValue("Bob");
+            Console.WriteLine(containsValue);
 
-            Console.WriteLine("Queue is empty!");
         }
     }
+
 }
 
